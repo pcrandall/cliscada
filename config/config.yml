@@ -1,0 +1,62 @@
+cookie:
+  host: HOST URL
+  method: GET
+  url: URL
+  headers:
+  # as many as you'd like to set
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+login:
+  method: POST
+  url: URL
+  auth:
+    un: USERNAME
+    pw: PASSWORD
+  headers:
+  # as many as you'd like to set
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+
+historysearch:
+  url: URL
+  headers:
+  # as many as you'd like to set
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+historytext:
+  url: URL
+  headers:
+  # as many as you'd like to set
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+
+currentfaults:
+  url: URL
+  method: GET
+  # as many as you'd like to set
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+    -
+      key: "HEADER TO SET"
+      val: "VALUE"
+machinenames:
+  # as many as you'd like to set
+- machinename1
+- machinename2
